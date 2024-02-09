@@ -41,7 +41,14 @@ class Solution {
         /*Loop through the array again, but this time add it to the boolean arraylist result, if current candy + extra candies are greater than or equal to maximum value of candy,
           add it to the arraylist, since its a boolean it will add true or false.
          */
-        /*Note: we cannot have a if condition as the boolean array is already testing the condition if true or false, hence inserting true or false into the result array*/
+
+        /*Note: this section can be coded like this too:
+         if (candies[j] + extraCandies >= maxCandy) {
+            result.add(true);
+        } else {
+            result.add(false);
+        }
+        */
         for(int j = 0; j<candies.length; j++){
             result.add(candies[j] + extraCandies >= maxCandy);
         }

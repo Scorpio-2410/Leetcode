@@ -1,3 +1,7 @@
+/*Required libraries for List & ArrayList, Leetcode already has these libraries*/
+import java.util.List;
+import java.util.ArrayList;
+
 /*1431. Kids With the Greatest Number of Candies
 Tags: Array
 
